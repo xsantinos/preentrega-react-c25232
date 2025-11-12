@@ -6,7 +6,7 @@ export const CartContext = createContext();
 
 // Custom hook para consumirlo
 export function useCartContext() {
-    return useContext(CartContext);
+  return useContext(CartContext);
 }
 
 //Entonces, lo único que consumo, generado en este archivo va a ser el useCartContext, que es mi hook custom para no tener que andar importando useContext y y CartContext.
